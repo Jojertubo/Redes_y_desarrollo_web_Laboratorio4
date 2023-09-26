@@ -9,8 +9,9 @@ h1{
 }
 /* ESTILOS PARA LAS IMÁGENES */
 .img{
-    max-width: 600px;
-    max-height: 300px;
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 400px;
     margin: auto;
 }
 section{
@@ -43,6 +44,7 @@ a{
     text-decoration: none;
     padding: 10px;
     border: 1px solid white;
+    font-size: 3vw;
 }
 a:hover{
     text-decoration: none;
